@@ -12,15 +12,21 @@ body{
     background-color: yellow;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     height: 50px;
+    padding: 0 20px 0 20px;
 }
 
-.h3{
-    padding: 10px 0 0 15px;
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
 }
 
-.p{
-    padding: 10px 15px 0 0;
+.navbar a{
+    text-decoration: none;
+    color: black;
 }
 
 .info{
@@ -96,7 +102,7 @@ body{
 
 .elect1 hr{
     margin-top: 5px;
-    width: 400px;
+    width: 280px;
     margin-left: 30px;
 }
 
@@ -124,7 +130,7 @@ body{
 }
 
 .add1{
-    padding: 25px 0 0 140px;
+    padding: 25px 0 0 90px;
 }
 
 .addd{
@@ -209,7 +215,7 @@ body{
 .work hr{
     border: 1px solid blue;
     margin: 5px 0 0 40px;
-    width: 400px;
+    width: 280px;
 }
 
 .work h2{
@@ -224,7 +230,7 @@ body{
 .project-info{
     margin: 30px 0 0 45px;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 2rem;
 }
 
@@ -287,7 +293,7 @@ body{
     margin-top: 5px;
     margin-left: 25px;
     border: 1px solid black;
-    width: 400px;
+    width: 280px;
 }
 
 #test{

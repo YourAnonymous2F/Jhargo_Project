@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+.header{
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px 0 20px;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    list-style: none;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: black;
+}

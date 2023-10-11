@@ -33,6 +33,8 @@ body{
 /* working here lol*/
 .outlets{
     background: orange;
+    position: relative;
+    z-index: -1;
 }
 
 .outs{

@@ -29,3 +29,8 @@ body{
     text-decoration: none;
     color: black;
 }
+
+.navbar a:hover{
+    font-weight: 700;
+    color: black;
+}

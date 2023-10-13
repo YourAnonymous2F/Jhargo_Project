@@ -30,6 +30,11 @@ body{
     color: black;
 }
 
+.navbar a:hover{
+    font-weight: 700;
+    color: black;
+}
+
 /* working here lol*/
 .outlets{
     background: orange;

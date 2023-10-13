@@ -30,6 +30,11 @@ body{
     color: black;
 }
 
+.navbar a:hover{
+    font-weight: 700;
+    color: black;
+}
+
 .info{
     background: pink;
     height: 250px;
